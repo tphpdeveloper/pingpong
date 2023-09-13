@@ -38,8 +38,8 @@ export default {
     },
     windowSize () {
       return {
-        width: 1536,
-        height: 761
+        width: 1920,
+        height: 941
       }
     },
     setX () {
@@ -105,6 +105,7 @@ export default {
       return this.countPlus
     },
     setDocumentScroll () {
+      /* console.log(document)
       document.addEventListener('wheel', (e) => {
         if (e.deltaY < 0) {
           this.countPlus++
@@ -113,7 +114,7 @@ export default {
             this.countPlus--
           }
         }
-      })
+      }) */
     }
   }
 }
