@@ -4,9 +4,8 @@
 
 <template>
   <div>
-    Default header
+    Back
     <slot />
-    Default footer
   </div>
 </template>
 

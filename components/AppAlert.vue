@@ -3,11 +3,9 @@
 </script>
 
 <template>
-  <div>
-    Default header
+  <span>
     <slot />
-    Default footer
-  </div>
+  </span>
 </template>
 
 <style scoped>
