@@ -1,19 +1,11 @@
-<script setup>
-definePageMeta({
-  layout: 'back'
-})
+<script setup lang="ts">
+
 </script>
 
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-    <AppAlert>
-      This is an auto-imported component
-    </AppAlert>
-  </div>
+  <h1>Hello World</h1>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>
-use --host to expose

@@ -4,11 +4,11 @@
 
 <template>
   <div>
-    Back
+    <h1>My Default Layout</h1>
     <slot />
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>
